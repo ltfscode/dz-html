@@ -1,0 +1,35 @@
+body {
+  background-color: #9e4747;
+}
+
+section {
+  width: 582px;
+  height: 573px;
+  background-color: #FFFEFE;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #333333;
+}
+
+p {
+  color: #666666;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+input {
+  width: 394px;
+  height: 44px;
+  background-color: #f5f5f5;
+}
+
+button {
+  width: 394px;
+  height: 44px;
+  background-color: #089fe0;
+  color: #ffffff;
+}
