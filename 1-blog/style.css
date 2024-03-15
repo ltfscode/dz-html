@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   color: #FFFFFF;
 }
@@ -8,11 +8,24 @@ body {
   background: linear-gradient(180.00deg, rgb(55, 65, 81), rgb(17, 24, 39) 100%);
 }
 
+header {
+  padding: 80px;
+}
+
+main {
+  margin: 0 0 103px 0;
+}
+
+nav>ul {
+  list-style: none;
+}
+
 header a {
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
   text-decoration: none;
+  color: rgba(255, 255, 255, 1);
 }
 
 .srch {
@@ -25,6 +38,11 @@ header a {
   height: 40px;
   border-radius: 100px;
   background: rgba(31, 41, 55, 0.6);
+  padding: 19px 47px;
+}
+
+.header-text {
+  margin: 0 0 14px 0;
 }
 
 .hdr {
@@ -32,6 +50,10 @@ header a {
   font-weight: 400;
   line-height: 16px;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.author {
+  margin: 0 0 28px 0;
 }
 
 .avatar {
@@ -43,6 +65,11 @@ h1 {
   font-size: 24px;
   font-weight: 400;
   line-height: 38px;
+  margin: 0 0 30px 0;
+}
+
+.color-images {
+  margin: 0 0 69px 0;
 }
 
 .clr {
