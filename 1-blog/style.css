@@ -8,6 +8,7 @@
 
 body {
   background: linear-gradient(180.00deg, rgb(55, 65, 81), rgb(17, 24, 39) 100%);
+  font-family: sans-serif;
 }
 
 header {
@@ -45,11 +46,20 @@ header a {
   color: rgba(255, 255, 255, 1);
 }
 
+form {
+  position: relative;
+  width: 224px;
+  height: 40px;
+  border-radius: 100px;
+  background: rgba(31, 41, 55, 0.6);
+  border: none;
+}
+
 .search {
   position: absolute;
   width: 14px;
   height: 14px;
-  padding: 14px 14px;
+  margin: 14px 0 12px 18px;
 }
 
 #search {
@@ -57,12 +67,18 @@ header a {
   width: 224px;
   height: 40px;
   border-radius: 100px;
+  border: none;
   background: rgba(31, 41, 55, 0.6);
-  padding: 19px 47px;
+  padding: 9px 49px 12px;
+}
+
+::placeholder {
+  font-size: 16px;
 }
 
 .header-text {
   text-align: center;
+  margin: 0 0 14px 0;
 }
 
 .hdr {
@@ -72,16 +88,21 @@ header a {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.maker {
-  width: 4px;
-  height: 4px;
-  border-radius: 100px;
-  background: rgba(255, 255, 255, 0.6);
-}
-
 .author {
   margin: 0 0 28px 0;
   text-align: center;
+}
+
+.hdr-author {
+  width: 525px;
+  height: 76px;
+  margin: 0 auto 30px;
+}
+
+.card {
+  display: flex;
+  width: 214px;
+  height: 53px;
 }
 
 .avatar {
@@ -93,7 +114,6 @@ h1 {
   font-size: 24px;
   font-weight: 400;
   line-height: 38px;
-  margin: 0 0 30px 0;
 }
 
 .color-images {
@@ -108,7 +128,7 @@ h1 {
 }
 
 article {
-  max-width: 708px;
+  padding: 0 367px;
   margin: 0 auto;
 }
 
