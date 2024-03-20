@@ -94,8 +94,7 @@ form {
 }
 
 .hdr-author {
-  width: 525px;
-  height: 76px;
+  max-width: 525px;
   margin: 0 auto 30px;
 }
 
@@ -128,7 +127,7 @@ h1 {
 }
 
 article {
-  padding: 0 367px;
+  max-width: 708px;
   margin: 0 auto;
 }
 
@@ -136,12 +135,18 @@ article {
   font-size: 20px;
   font-weight: 400;
   line-height: 32px;
+  padding-bottom: 46px;
 }
 
-.artcl-2 {
+.artcl-2,
+.artcl-3 {
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
+}
+
+.artcl-2 {
+  padding-bottom: 46px;
 }
 
 .frt-text {
