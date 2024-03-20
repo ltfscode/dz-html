@@ -9,10 +9,12 @@
   <body>
     <main>
       <form>
-        <div>
+        <div class="header">
           <h1>Регистрация</h1>
-          <p>Уже есть аккаунт?</p>
-          <a href="#">Войти</a>
+          <div class="inp">
+            <p>Уже есть аккаунт?</p>
+            <a href="#">Войти</a>
+          </div>
         </div>
         <input
           type="text"
@@ -20,24 +22,26 @@
           id="company"
           placeholder="Введите название компании"
         />
-        <br />
-        <input
-          type="text"
-          name="last_name"
-          id="last_name"
-          placeholder="Имя"
-        />
-        <input
-          type="text"
-          name="first_name"
-          id="first_name"
-          placeholder="Фамилия"
-        />
-        <br />
+        <div class="lst-frstname">
+          <input
+            type="text"
+            name="last_name"
+            id="last_name"
+            placeholder="Имя"
+          />
+          <input
+            type="text"
+            name="first_name"
+            id="first_name"
+            placeholder="Фамилия"
+          />
+        </div>
         <input type="email" name="email" id="email" placeholder="E-mail" />
-        <br />
-        <button>Зарегистрироваться</button>
-        <div>
+        <div class="btn">
+          <button>Зарегистрироваться</button>
+          <img src="./image/arrow.svg" alt="arrow" class="arrow">
+        </div>
+        <div class="checkbx">
           <input type="checkbox" name="check" id="check" />
           <p>Я прочитал и принимаю</p>
           <a href="#">Условия использования</a>
