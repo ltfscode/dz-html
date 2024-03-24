@@ -13,14 +13,20 @@ body {
       rgb(255, 165, 165) 32.964%,
       rgba(255, 255, 255, 0) 82.031%),
     rgb(243, 148, 148);
+  width: 1440px;
+  height: 1024px;
+  margin: 0 auto;
 }
 
 main {
-  margin: 0 auto;
-  text-align: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 form {
+  text-align: center;
   width: 582px;
   height: 573px;
   background-color: #FFFEFE;
